@@ -7,11 +7,10 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-// Connecter MongoDB
-mongoose.connect('mongodb://localhost:27017/pokemon-db', {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-});
+// Connecter MongoDB sans options obsolètes
+mongoose.connect('mongodb://localhost:27017/pokemon-db')
+  .then(() => console.log('MongoDB connected'))
+  .catch((err) => console.error('MongoDB connection error:', err));
 
 // Définir le modèle Pokémon
 const pokemonSchema = new mongoose.Schema({
