@@ -1,69 +1,80 @@
 # Pokémon App
 
-## Contexte
-
-Cette application permet de gérer une liste de Pokémon. Les utilisateurs peuvent ajouter, éditer, supprimer, et visualiser des détails sur les Pokémon. L'application est construite en utilisant React pour le frontend et Node.js avec MongoDB pour le backend.
+Bienvenue dans l'application Pokémon-app ! Ce projet est une application web full-stack permettant aux utilisateurs de gérer des Pokémon via une interface conviviale. Vous pouvez ajouter, lister, afficher les détails, et mettre à jour des Pokémon.
 
 ## Fonctionnalités
 
-1. **Ajouter un Pokémon**
+### 📝 Fonctionnalités principales
 
-   - Formulaire pour saisir des informations sur un Pokémon.
-   - Message de confirmation en cas de succès ou d'erreur.
-2. **Lister des Pokémon**
+1. **Ajouter un nouveau Pokémon** :
 
-   - Affichage de la liste des Pokémon avec pagination.
-   - Système de recherche et tri.
-3. **Afficher les détails d’un Pokémon**
+   - Les utilisateurs peuvent ajouter un Pokémon avec des informations telles que le numéro de Pokédex, le nom, le type, la génération, le sexe, et une image.
+   - Un message de confirmation est affiché en cas de succès ou d'erreur.
+2. **Lister les Pokémon** :
 
-   - Affichage des détails d'un Pokémon spécifique.
-4. **Mettre à jour les informations d’un Pokémon**
+   - Les utilisateurs peuvent voir une liste paginée des Pokémon avec des détails de base comme le nom, le type et la génération.
+   - Un système de recherche permet de filtrer les Pokémon par nom.
+3. **Afficher les détails d'un Pokémon** :
 
-   - Formulaire pour éditer les informations d'un Pokémon existant.
+   - En cliquant sur un Pokémon, les utilisateurs peuvent voir des détails complets et mis à jour du Pokémon sélectionné.
+4. **Mettre à jour les informations d'un Pokémon** :
 
-## Technologie
+   - Les utilisateurs peuvent modifier les informations d'un Pokémon et voir les changements sauvegardés.
 
-- **Frontend** : React
-- **Backend** : Node.js, Express
-- **Base de données** : MongoDB
-- **Containerisation** : Docker
+### 💡 Fonctionnalités Bonus
 
-## Déploiement
+- **Recherche de Pokémon** :
+  - Les utilisateurs peuvent rechercher des Pokémon par nom à l'aide d'un système de recherche intégré.
 
-1. **Backend**
+## Architecture du projet
 
-   - Naviguez dans le répertoire `backend/`.
-   - Construisez et lancez les conteneurs Docker :
-     ```bash
-     docker-compose up --build
-     ```
-   - L'API sera accessible à `http://localhost:5000`.
-2. **Frontend**
+Le projet est divisé en deux parties principales : le frontend et le backend.
 
-   - Naviguez dans le répertoire `frontend/`.
-   - Installez les dépendances et lancez l'application :
-     ```bash
-     npm install
-     npm run dev
-     ```
-   - L'application frontend sera accessible à `http://localhost:5173`.
+### Backend
 
-## Tests
+Le backend est construit avec Node.js et expose une API REST. Les principales fonctionnalités sont :
 
-Vous pouvez ajouter des tests pour vérifier les fonctionnalités de l'application et assurer la qualité du code.
+- **Contrôleurs** : Gèrent les opérations CRUD pour les Pokémon.
+- **Modèles** : Définissent le schéma de la base de données avec Mongoose.
+- **Routes** : Définissent les endpoints de l'API pour interagir avec les Pokémon.
+- **Dockerfile** : Contient les instructions pour construire l'image Docker du backend.
+- **MongoDB** : Utilisé pour stocker les données des Pokémon.
 
-## Choix Techniques
+### Frontend
 
-- **Docker** : Utilisé pour la conteneurisation afin d'assurer une réplicabilité facile.
-- **React** : Framework pour le frontend pour une interface utilisateur réactive.
-- **Node.js avec Express** : Pour le serveur backend.
-- **MongoDB** : Base de données NoSQL pour le stockage des Pokémon.
+Le frontend est une application React utilisant Vite pour la construction. Les fonctionnalités incluent :
 
-## Documentation
+- **Pages** : Composants pour ajouter, modifier, afficher, et lister les Pokémon.
+- **App.jsx** : Le composant principal de l'application.
+- **Router.jsx** : Configure les routes pour naviguer dans l'application.
+- **Dockerfile** : Contient les instructions pour construire l'image Docker du frontend.
 
-- **Endpoints API** :
-  - `POST /api/pokemons` : Ajouter un nouveau Pokémon.
-  - `GET /api/pokemons` : Lister les Pokémon avec pagination.
-  - `GET /api/pokemons/:numero` : Récupérer un Pokémon par son numéro.
-  - `PUT /api/pokemons/:numero` : Mettre à jour les informations d'un Pokémon.
-  - `DELETE /api/pokemons/:numero` : Supprimer un Pokémon par son numéro.
+## Instructions pour exécuter le projet
+
+### Prérequis
+
+- Docker et Docker Compose doivent être installés sur votre machine.
+
+### Déploiement avec Docker
+
+1. Clonez le dépôt :
+
+   ```bash
+   git clone https://github.com/enzodca/pokemon-app.git
+   cd pokemon-app
+   ```
+2. Construisez et lancez les conteneurs :
+
+   ```bash
+   docker-compose up --build
+   ```
+3. Accédez à l'application via [http://localhost:80]() pour le frontend et [http://localhost:5000](http://localhost:5000) pour le backend.
+
+## Choix techniques
+
+* **Backend** : Utilisation de Node.js avec Express pour l'API REST. Mongoose est utilisé pour interagir avec MongoDB. Docker est utilisé pour le déploiement.
+* **Frontend** : Utilisation de React avec Vite pour une expérience utilisateur fluide. La gestion des routes est faite avec React Router.
+
+## Auteurs
+
+* **Enzo D.** - [enzodca](https://github.com/enzodca)
