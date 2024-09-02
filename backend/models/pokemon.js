@@ -23,7 +23,7 @@ const pokemonSchema = new mongoose.Schema({
   },
   sex: { 
     type: String, 
-    enum: ['M', 'F', 'M/F', 'Inconnu'],  // Modifié ici
+    enum: ['M', 'F', 'M/F', 'Inconnu'], 
     required: true 
   },
   image: { 
