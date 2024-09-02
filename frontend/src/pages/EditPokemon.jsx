@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
 
-function AddPokemon() {
+function EditPokemon() {
+  const { numero } = useParams();
   const navigate = useNavigate();
   const [formData, setFormData] = useState({
     numero: '',
@@ -14,42 +15,65 @@ function AddPokemon() {
   });
   const [error, setError] = useState('');
 
+  useEffect(() => {
+    fetch(`http://localhost:5000/api/pokemons/${numero}`)
+      .then(response => response.json())
+      .then(data => setFormData({
+        numero: data.numero,
+        name: data.name,
+        type1: data.type[0] || '',
+        type2: data.type[1] || '',
+        generation: data.generation,
+        sex: data.sex,
+        image: data.image,
+      }))
+      .catch(error => setError('Échec de la récupération des données'));
+  }, [numero]);
+
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e) => {
+  const handleUpdate = (e) => {
     e.preventDefault();
+    if (formData.numero <= 0) {
+      setError('Le numéro de Pokédex doit être positif');
+      return;
+    }
     const { type1, type2, ...rest } = formData;
-    const newPokemon = { ...rest, type: [type1, type2].filter(Boolean) };
-    
-    fetch('http://localhost:5000/api/pokemons', {
-      method: 'POST',
+    const updatedPokemon = { ...rest, type: [type1, type2].filter(Boolean) };
+
+    fetch(`http://localhost:5000/api/pokemons/${numero}`, {
+      method: 'PUT',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(newPokemon),
+      body: JSON.stringify(updatedPokemon),
     })
       .then(response => {
-        if (!response.ok) throw new Error('Échec de l\'ajout du Pokémon');
+        if (!response.ok) throw new Error('Échec de la mise à jour du Pokémon');
         return response.json();
       })
       .then(data => {
-        alert('Pokémon ajouté avec succès');
-        navigate('/');
+        alert('Pokémon mis à jour avec succès');
+        navigate(`/pokemon/${numero}`);
       })
-      .catch(error => setError('Échec de l\'ajout du Pokémon'));
+      .catch(error => setError('Échec de la mise à jour du Pokémon'));
+  };
+
+  const handleCancel = () => {
+    navigate(`/pokemon/${numero}`);
   };
 
   return (
-    <form onSubmit={handleSubmit}>
-      <label>*Numéro de pokedex :</label>
-      <input type="number" name="numero" onChange={handleChange} required />
+    <form onSubmit={handleUpdate}>
+      <label>Numéro :</label>
+      <input type="number" name="numero" value={formData.numero} onChange={handleChange} required min="1" />
 
-      <label>*Nom :</label>
-      <input type="text" name="name" onChange={handleChange} required />
+      <label>Nom :</label>
+      <input type="text" name="name" value={formData.name} onChange={handleChange} required />
 
-      <label>*Type principal :</label>
-      <select name="type1" onChange={handleChange} required>
-        <option value="">Sélectionnez un type</option>
+      <label>Type principal :</label>
+      <select name="type1" value={formData.type1} onChange={handleChange} required>
+      <option value="">Sélectionnez un type</option>
         <option value="Acier">Acier</option>
         <option value="Combat">Combat</option>
         <option value="Dragon">Dragon</option>
@@ -70,9 +94,9 @@ function AddPokemon() {
         <option value="Vol">Vol</option>
       </select>
 
-      <label>Second type:</label>
-      <select name="type2" onChange={handleChange}>
-        <option value="">Sélectionnez un type</option>
+      <label>Second type (facultatif) :</label>
+      <select name="type2" value={formData.type2} onChange={handleChange}>
+      <option value="">Sélectionnez un type</option>
         <option value="Acier">Acier</option>
         <option value="Combat">Combat</option>
         <option value="Dragon">Dragon</option>
@@ -93,10 +117,10 @@ function AddPokemon() {
         <option value="Vol">Vol</option>
       </select>
 
-      <label>*Génération :</label>
-      <input type="number" name="generation" onChange={handleChange} />
+      <label>Génération :</label>
+      <input type="number" name="generation" value={formData.generation} onChange={handleChange} min="1" />
 
-      <label>*Sexe :</label>
+      <label>Sexe :</label>
       <select name="sex" onChange={handleChange} required>
         <option value="">Sélectionnez un sexe</option>
         <option value="M">M</option>
@@ -106,11 +130,13 @@ function AddPokemon() {
       </select>
 
       <label>URL de l'image :</label>
-      <input type="text" name="image" onChange={handleChange} />
+      <input type="text" name="image" value={formData.image} onChange={handleChange} />
 
-      <button type="submit">Ajouter le Pokémon</button>
+      {error && <p style={{ color: 'red' }}>{error}</p>}
+      <button type="submit">Mettre à jour</button>
+      <button type="button" onClick={handleCancel}>Annuler</button>
     </form>
   );
 }
 
-export default AddPokemon;
+export default EditPokemon;

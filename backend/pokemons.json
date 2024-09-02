@@ -1,0 +1,1210 @@
+[
+    {
+      "numero": 1,
+      "name": "Bulbizarre",
+      "type": ["Plante", "Poison"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png"
+    },
+    {
+      "numero": 2,
+      "name": "Herbizarre",
+      "type": ["Plante", "Poison"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/002.png"
+    },
+    {
+      "numero": 3,
+      "name": "Florizarre",
+      "type": ["Plante", "Poison"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/003.png"
+    },
+    {
+      "numero": 4,
+      "name": "Salamèche",
+      "type": ["Feu"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png"
+    },
+    {
+      "numero": 5,
+      "name": "Reptincel",
+      "type": ["Feu"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/005.png"
+    },
+    {
+      "numero": 6,
+      "name": "Dracaufeu",
+      "type": ["Feu", "Vol"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png"
+    },
+    {
+      "numero": 7,
+      "name": "Carapuce",
+      "type": ["Eau"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/007.png"
+    },
+    {
+      "numero": 8,
+      "name": "Carabaffe",
+      "type": ["Eau"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/008.png"
+    },
+    {
+      "numero": 9,
+      "name": "Tortank",
+      "type": ["Eau"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/009.png"
+    },
+    {
+      "numero": 10,
+      "name": "Chenipan",
+      "type": ["Insecte"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/010.png"
+    },
+    {
+      "numero": 11,
+      "name": "Chrysacier",
+      "type": ["Insecte"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/011.png"
+    },
+    {
+      "numero": 12,
+      "name": "Papilusion",
+      "type": ["Insecte", "Vol"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/012.png"
+    },
+    {
+      "numero": 13,
+      "name": "Aspicot",
+      "type": ["Insecte", "Poison"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/013.png"
+    },
+    {
+      "numero": 14,
+      "name": "Coconfort",
+      "type": ["Insecte", "Poison"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/014.png"
+    },
+    {
+      "numero": 15,
+      "name": "Dardargnan",
+      "type": ["Insecte", "Poison"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/015.png"
+    },
+    {
+      "numero": 16,
+      "name": "Roucool",
+      "type": ["Normal", "Vol"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/016.png"
+    },
+    {
+      "numero": 17,
+      "name": "Roucoups",
+      "type": ["Normal", "Vol"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/017.png"
+    },
+    {
+      "numero": 18,
+      "name": "Roucarnage",
+      "type": ["Normal", "Vol"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/018.png"
+    },
+    {
+      "numero": 19,
+      "name": "Rattata",
+      "type": ["Normal"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/019.png"
+    },
+    {
+      "numero": 20,
+      "name": "Rattatac",
+      "type": ["Normal"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/020.png"
+    },
+    {
+      "numero": 21,
+      "name": "Piafabec",
+      "type": ["Normal", "Vol"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/021.png"
+    },
+    {
+      "numero": 22,
+      "name": "Rapasdepic",
+      "type": ["Normal", "Vol"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/022.png"
+    },
+    {
+      "numero": 23,
+      "name": "Abo",
+      "type": ["Poison"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/023.png"
+    },
+    {
+      "numero": 24,
+      "name": "Arbok",
+      "type": ["Poison"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/024.png"
+    },
+    {
+      "numero": 25,
+      "name": "Pikachu",
+      "type": ["Électrik"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png"
+    },
+    {
+      "numero": 26,
+      "name": "Raichu",
+      "type": ["Électrik"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/026.png"
+    },
+    {
+      "numero": 27,
+      "name": "Sabelette",
+      "type": ["Sol"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/027.png"
+    },
+    {
+      "numero": 28,
+      "name": "Sablaireau",
+      "type": ["Sol"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/028.png"
+    },
+    {
+      "numero": 29,
+      "name": "Nidoran♀",
+      "type": ["Poison"],
+      "generation": 1,
+      "sex": "F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/029.png"
+    },
+    {
+      "numero": 30,
+      "name": "Nidorina",
+      "type": ["Poison"],
+      "generation": 1,
+      "sex": "F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/030.png"
+    },
+    {
+      "numero": 31,
+      "name": "Nidoqueen",
+      "type": ["Poison", "Sol"],
+      "generation": 1,
+      "sex": "F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/031.png"
+    },
+    {
+      "numero": 32,
+      "name": "Nidoran♂",
+      "type": ["Poison"],
+      "generation": 1,
+      "sex": "M",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/032.png"
+    },
+    {
+      "numero": 33,
+      "name": "Nidorino",
+      "type": ["Poison"],
+      "generation": 1,
+      "sex": "M",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/033.png"
+    },
+    {
+      "numero": 34,
+      "name": "Nidoking",
+      "type": ["Poison", "Sol"],
+      "generation": 1,
+      "sex": "M",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/034.png"
+    },
+    {
+      "numero": 35,
+      "name": "Mélofée",
+      "type": ["Fée"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/035.png"
+    },
+    {
+      "numero": 36,
+      "name": "Mélodelfe",
+      "type": ["Fée"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/036.png"
+    },
+    {
+      "numero": 37,
+      "name": "Goupix",
+      "type": ["Feu"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/037.png"
+    },
+    {
+      "numero": 38,
+      "name": "Feunard",
+      "type": ["Feu"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/038.png"
+    },
+    {
+      "numero": 39,
+      "name": "Rondoudou",
+      "type": ["Normal", "Fée"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/039.png"
+    },
+    {
+      "numero": 40,
+      "name": "Grodoudou",
+      "type": ["Normal", "Fée"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/040.png"
+    },
+    {
+      "numero": 41,
+      "name": "Nosferapti",
+      "type": ["Poison", "Vol"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/041.png"
+    },
+    {
+      "numero": 42,
+      "name": "Nosferalto",
+      "type": ["Poison", "Vol"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/042.png"
+    },
+    {
+      "numero": 43,
+      "name": "Mystherbe",
+      "type": ["Plante", "Poison"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/043.png"
+    },
+    {
+      "numero": 44,
+      "name": "Ortide",
+      "type": ["Plante", "Poison"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/044.png"
+    },
+    {
+      "numero": 45,
+      "name": "Rafflesia",
+      "type": ["Plante", "Poison"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/045.png"
+    },
+    {
+      "numero": 46,
+      "name": "Paras",
+      "type": ["Insecte", "Plante"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/046.png"
+    },
+    {
+      "numero": 47,
+      "name": "Parasect",
+      "type": ["Insecte", "Plante"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/047.png"
+    },
+    {
+      "numero": 48,
+      "name": "Mimitoss",
+      "type": ["Insecte", "Poison"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/048.png"
+    },
+    {
+      "numero": 49,
+      "name": "Aéromite",
+      "type": ["Insecte", "Poison"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/049.png"
+    },
+    {
+      "numero": 50,
+      "name": "Taupiqueur",
+      "type": ["Sol"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/050.png"
+    },
+    {
+      "numero": 51,
+      "name": "Triopikeur",
+      "type": ["Sol"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/051.png"
+    },
+    {
+      "numero": 52,
+      "name": "Miaouss",
+      "type": ["Normal"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/052.png"
+    },
+    {
+      "numero": 53,
+      "name": "Persian",
+      "type": ["Normal"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/053.png"
+    },
+    {
+      "numero": 54,
+      "name": "Psykokwak",
+      "type": ["Eau"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/054.png"
+    },
+    {
+      "numero": 55,
+      "name": "Akwakwak",
+      "type": ["Eau"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/055.png"
+    },
+    {
+      "numero": 56,
+      "name": "Férosinge",
+      "type": ["Combat"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/056.png"
+    },
+    {
+      "numero": 57,
+      "name": "Colossinge",
+      "type": ["Combat"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/057.png"
+    },
+    {
+      "numero": 58,
+      "name": "Caninos",
+      "type": ["Feu"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/058.png"
+    },
+    {
+      "numero": 59,
+      "name": "Arcanin",
+      "type": ["Feu"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/059.png"
+    },
+    {
+      "numero": 60,
+      "name": "Ptitard",
+      "type": ["Eau"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/060.png"
+    },
+    {
+      "numero": 61,
+      "name": "Têtarte",
+      "type": ["Eau"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/061.png"
+    },
+    {
+      "numero": 62,
+      "name": "Tartard",
+      "type": ["Eau", "Combat"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/062.png"
+    },
+    {
+      "numero": 63,
+      "name": "Abra",
+      "type": ["Psy"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/063.png"
+    },
+    {
+      "numero": 64,
+      "name": "Kadabra",
+      "type": ["Psy"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/064.png"
+    },
+    {
+      "numero": 65,
+      "name": "Alakazam",
+      "type": ["Psy"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/065.png"
+    },
+    {
+      "numero": 66,
+      "name": "Machoc",
+      "type": ["Combat"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/066.png"
+    },
+    {
+      "numero": 67,
+      "name": "Machopeur",
+      "type": ["Combat"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/067.png"
+    },
+    {
+      "numero": 68,
+      "name": "Mackogneur",
+      "type": ["Combat"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/068.png"
+    },
+    {
+      "numero": 69,
+      "name": "Chétiflor",
+      "type": ["Plante", "Poison"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/069.png"
+    },
+    {
+      "numero": 70,
+      "name": "Boustiflor",
+      "type": ["Plante", "Poison"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/070.png"
+    },
+    {
+      "numero": 71,
+      "name": "Empiflor",
+      "type": ["Plante", "Poison"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/071.png"
+    },
+    {
+      "numero": 72,
+      "name": "Tentacool",
+      "type": ["Eau", "Poison"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/072.png"
+    },
+    {
+      "numero": 73,
+      "name": "Tentacruel",
+      "type": ["Eau", "Poison"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/073.png"
+    },
+    {
+      "numero": 74,
+      "name": "Racaillou",
+      "type": ["Roche", "Sol"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/074.png"
+    },
+    {
+      "numero": 75,
+      "name": "Gravalanch",
+      "type": ["Roche", "Sol"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/075.png"
+    },
+    {
+      "numero": 76,
+      "name": "Grolem",
+      "type": ["Roche", "Sol"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/076.png"
+    },
+    {
+      "numero": 77,
+      "name": "Ponyta",
+      "type": ["Feu"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/077.png"
+    },
+    {
+      "numero": 78,
+      "name": "Galopa",
+      "type": ["Feu"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/078.png"
+    },
+    {
+      "numero": 79,
+      "name": "Ramoloss",
+      "type": ["Eau", "Psy"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/079.png"
+    },
+    {
+      "numero": 80,
+      "name": "Flagadoss",
+      "type": ["Eau", "Psy"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/080.png"
+    },
+    {
+      "numero": 81,
+      "name": "Magnéti",
+      "type": ["Électrik", "Acier"],
+      "generation": 1,
+      "sex": "Inconnu",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/081.png"
+    },
+    {
+      "numero": 82,
+      "name": "Magnéton",
+      "type": ["Électrik", "Acier"],
+      "generation": 1,
+      "sex": "Inconnu",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/082.png"
+    },
+    {
+      "numero": 83,
+      "name": "Canarticho",
+      "type": ["Normal", "Vol"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/083.png"
+    },
+    {
+      "numero": 84,
+      "name": "Doduo",
+      "type": ["Normal", "Vol"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/084.png"
+    },
+    {
+      "numero": 85,
+      "name": "Dodrio",
+      "type": ["Normal", "Vol"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/085.png"
+    },
+    {
+      "numero": 86,
+      "name": "Otaria",
+      "type": ["Eau"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/086.png"
+    },
+    {
+      "numero": 87,
+      "name": "Lamantine",
+      "type": ["Eau", "Glace"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/087.png"
+    },
+    {
+      "numero": 88,
+      "name": "Tadmorv",
+      "type": ["Poison"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/088.png"
+    },
+    {
+      "numero": 89,
+      "name": "Grotadmorv",
+      "type": ["Poison"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/089.png"
+    },
+    {
+      "numero": 90,
+      "name": "Kokiyas",
+      "type": ["Eau"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/090.png"
+    },
+    {
+      "numero": 91,
+      "name": "Crustabri",
+      "type": ["Eau", "Glace"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/091.png"
+    },
+    {
+      "numero": 92,
+      "name": "Fantominus",
+      "type": ["Spectre", "Poison"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/092.png"
+    },
+    {
+      "numero": 93,
+      "name": "Spectrum",
+      "type": ["Spectre", "Poison"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/093.png"
+    },
+    {
+      "numero": 94,
+      "name": "Ectoplasma",
+      "type": ["Spectre", "Poison"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/094.png"
+    },
+    {
+      "numero": 95,
+      "name": "Onix",
+      "type": ["Roche", "Sol"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/095.png"
+    },
+    {
+      "numero": 96,
+      "name": "Soporifik",
+      "type": ["Psy"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/096.png"
+    },
+    {
+      "numero": 97,
+      "name": "Hypnomade",
+      "type": ["Psy"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/097.png"
+    },
+    {
+      "numero": 98,
+      "name": "Krabby",
+      "type": ["Eau"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/098.png"
+    },
+    {
+      "numero": 99,
+      "name": "Krabboss",
+      "type": ["Eau"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/099.png"
+    },
+    {
+      "numero": 100,
+      "name": "Voltorbe",
+      "type": ["Électrik"],
+      "generation": 1,
+      "sex": "Inconnu",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/100.png"
+    },
+    {
+      "numero": 101,
+      "name": "Électrode",
+      "type": ["Électrik"],
+      "generation": 1,
+      "sex": "Inconnu",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/101.png"
+    },
+    {
+      "numero": 102,
+      "name": "Noeunoeuf",
+      "type": ["Plante", "Psy"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/102.png"
+    },
+    {
+      "numero": 103,
+      "name": "Noadkoko",
+      "type": ["Plante", "Psy"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/103.png"
+    },
+    {
+      "numero": 104,
+      "name": "Osselait",
+      "type": ["Sol"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/104.png"
+    },
+    {
+      "numero": 105,
+      "name": "Ossatueur",
+      "type": ["Sol"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/105.png"
+    },
+    {
+      "numero": 106,
+      "name": "Kicklee",
+      "type": ["Combat"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/106.png"
+    },
+    {
+      "numero": 107,
+      "name": "Tygnon",
+      "type": ["Combat"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/107.png"
+    },
+    {
+      "numero": 108,
+      "name": "Excelangue",
+      "type": ["Normal"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/108.png"
+    },
+    {
+      "numero": 109,
+      "name": "Smogo",
+      "type": ["Poison"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/109.png"
+    },
+    {
+      "numero": 110,
+      "name": "Smogogo",
+      "type": ["Poison"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/110.png"
+    },
+    {
+      "numero": 111,
+      "name": "Rhinocorne",
+      "type": ["Sol", "Roche"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/111.png"
+    },
+    {
+      "numero": 112,
+      "name": "Rhinoféros",
+      "type": ["Sol", "Roche"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/112.png"
+    },
+    {
+      "numero": 113,
+      "name": "Leveinard",
+      "type": ["Normal"],
+      "generation": 1,
+      "sex": "F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/113.png"
+    },
+    {
+      "numero": 114,
+      "name": "Saquedeneu",
+      "type": ["Plante"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/114.png"
+    },
+    {
+      "numero": 115,
+      "name": "Kangourex",
+      "type": ["Normal"],
+      "generation": 1,
+      "sex": "F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/115.png"
+    },
+    {
+      "numero": 116,
+      "name": "Hypotrempe",
+      "type": ["Eau"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/116.png"
+    },
+    {
+      "numero": 117,
+      "name": "Hypocéan",
+      "type": ["Eau"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/117.png"
+    },
+    {
+      "numero": 118,
+      "name": "Poissirène",
+      "type": ["Eau"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/118.png"
+    },
+    {
+      "numero": 119,
+      "name": "Poissoroy",
+      "type": ["Eau"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/119.png"
+    },
+    {
+      "numero": 120,
+      "name": "Stari",
+      "type": ["Eau"],
+      "generation": 1,
+      "sex": "Inconnu",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/120.png"
+    },
+    {
+      "numero": 121,
+      "name": "Staross",
+      "type": ["Eau", "Psy"],
+      "generation": 1,
+      "sex": "Inconnu",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/121.png"
+    },
+    {
+      "numero": 122,
+      "name": "M. Mime",
+      "type": ["Psy", "Fée"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/122.png"
+    },
+    {
+      "numero": 123,
+      "name": "Insécateur",
+      "type": ["Insecte", "Vol"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/123.png"
+    },
+    {
+      "numero": 124,
+      "name": "Lippoutou",
+      "type": ["Glace", "Psy"],
+      "generation": 1,
+      "sex": "F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/124.png"
+    },
+    {
+      "numero": 125,
+      "name": "Élektek",
+      "type": ["Électrik"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/125.png"
+    },
+    {
+      "numero": 126,
+      "name": "Magmar",
+      "type": ["Feu"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/126.png"
+    },
+    {
+      "numero": 127,
+      "name": "Scarabrute",
+      "type": ["Insecte"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/127.png"
+    },
+    {
+      "numero": 128,
+      "name": "Tauros",
+      "type": ["Normal"],
+      "generation": 1,
+      "sex": "M",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/128.png"
+    },
+    {
+      "numero": 129,
+      "name": "Magicarpe",
+      "type": ["Eau"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/129.png"
+    },
+    {
+      "numero": 130,
+      "name": "Léviator",
+      "type": ["Eau", "Vol"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/130.png"
+    },
+    {
+      "numero": 131,
+      "name": "Lokhlass",
+      "type": ["Eau", "Glace"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/131.png"
+    },
+    {
+      "numero": 132,
+      "name": "Métamorph",
+      "type": ["Normal"],
+      "generation": 1,
+      "sex": "Inconnu",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/132.png"
+    },
+    {
+      "numero": 133,
+      "name": "Évoli",
+      "type": ["Normal"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/133.png"
+    },
+    {
+      "numero": 134,
+      "name": "Aquali",
+      "type": ["Eau"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/134.png"
+    },
+    {
+      "numero": 135,
+      "name": "Voltali",
+      "type": ["Électrik"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/135.png"
+    },
+    {
+      "numero": 136,
+      "name": "Pyroli",
+      "type": ["Feu"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/136.png"
+    },
+    {
+      "numero": 137,
+      "name": "Porygon",
+      "type": ["Normal"],
+      "generation": 1,
+      "sex": "Inconnu",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/137.png"
+    },
+    {
+      "numero": 138,
+      "name": "Amonita",
+      "type": ["Roche", "Eau"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/138.png"
+    },
+    {
+      "numero": 139,
+      "name": "Amonistar",
+      "type": ["Roche", "Eau"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/139.png"
+    },
+    {
+      "numero": 140,
+      "name": "Kabuto",
+      "type": ["Roche", "Eau"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/140.png"
+    },
+    {
+      "numero": 141,
+      "name": "Kabutops",
+      "type": ["Roche", "Eau"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/141.png"
+    },
+    {
+      "numero": 142,
+      "name": "Ptéra",
+      "type": ["Roche", "Vol"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/142.png"
+    },
+    {
+      "numero": 143,
+      "name": "Ronflex",
+      "type": ["Normal"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/143.png"
+    },
+    {
+      "numero": 144,
+      "name": "Artikodin",
+      "type": ["Glace", "Vol"],
+      "generation": 1,
+      "sex": "Inconnu",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/144.png"
+    },
+    {
+      "numero": 145,
+      "name": "Électhor",
+      "type": ["Électrik", "Vol"],
+      "generation": 1,
+      "sex": "Inconnu",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/145.png"
+    },
+    {
+      "numero": 146,
+      "name": "Sulfura",
+      "type": ["Feu", "Vol"],
+      "generation": 1,
+      "sex": "Inconnu",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/146.png"
+    },
+    {
+      "numero": 147,
+      "name": "Minidraco",
+      "type": ["Dragon"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/147.png"
+    },
+    {
+      "numero": 148,
+      "name": "Draco",
+      "type": ["Dragon"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/148.png"
+    },
+    {
+      "numero": 149,
+      "name": "Dracolosse",
+      "type": ["Dragon", "Vol"],
+      "generation": 1,
+      "sex": "M/F",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/149.png"
+    },
+    {
+      "numero": 150,
+      "name": "Mewtwo",
+      "type": ["Psy"],
+      "generation": 1,
+      "sex": "Inconnu",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/150.png"
+    },
+    {
+      "numero": 151,
+      "name": "Mew",
+      "type": ["Psy"],
+      "generation": 1,
+      "sex": "Inconnu",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/151.png"
+    }
+  ]

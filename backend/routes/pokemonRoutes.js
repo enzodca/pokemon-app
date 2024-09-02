@@ -1,16 +1,12 @@
-// backend/routes/pokemonRoutes.js
 const express = require('express');
-const { createPokemon, getPokemons, getPokemonById, updatePokemon } = require('../controllers/pokemonController');
+const { createPokemon, getPokemons, updatePokemon, deletePokemon, getPokemonByNumber } = require('../controllers/pokemonController');
 const router = express.Router();
 
-router.get('/', (req, res) => {
-    res.send('API is working');
-  });
-
-  
-router.post('/pokemons', createPokemon);
 router.get('/pokemons', getPokemons);
-router.get('/pokemons/:id', getPokemonById);
-router.put('/pokemons/:id', updatePokemon);
+router.post('/pokemons', createPokemon);
+router.get('/pokemons/:numero', getPokemonByNumber); 
+router.put('/pokemons/:numero', updatePokemon);
+router.delete('/pokemons/:numero', deletePokemon);
+
 
 module.exports = router;

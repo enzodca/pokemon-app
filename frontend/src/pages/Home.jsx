@@ -1,27 +1,48 @@
-// frontend/src/pages/Home.jsx
-import React, { useEffect, useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 function Home() {
   const [pokemons, setPokemons] = useState([]);
+  const [search, setSearch] = useState('');
+  const [sortBy, setSortBy] = useState('numero');
+  const [order, setOrder] = useState('asc');
+  const [page, setPage] = useState(1);
+  const limit = 10;
 
   useEffect(() => {
-    fetch('http://localhost:5000/api/pokemons')
-      .then((response) => response.json())
-      .then((data) => setPokemons(data));
-  }, []);
+    fetch(`http://localhost:5000/api/pokemons?search=${search}&sortBy=${sortBy}&order=${order}&page=${page}&limit=${limit}`)
+      .then(response => response.json())
+      .then(data => setPokemons(data));
+  }, [search, sortBy, order, page]);
 
   return (
     <div>
-      <h1>Pokémon List</h1>
+      <input type="text" placeholder="Rechercher..." onChange={(e) => setSearch(e.target.value)} />
+      <button onClick={() => setOrder(order === 'asc' ? 'desc' : 'asc')}>
+        Trier par {sortBy === 'numero' ? 'Numéro Pokédex' : 'Alphabétique'} ({order === 'asc' ? 'ascendant' : 'descendant'})
+      </button>
+      <button onClick={() => setSortBy(sortBy === 'numero' ? 'name' : 'numero')}>
+        Changer le critère de tri
+      </button>
+
+      <div>
+        {/* Bouton pour ajouter un Pokémon */}
+      <Link to="/add-pokemon">
+        <button type="button">Ajouter un Pokémon</button>
+      </Link>
+      <h1>Liste des Pokémons</h1>
+    </div>
+
       <ul>
-        {pokemons.map((pokemon) => (
-          <li key={pokemon._id}>
-            <Link to={`/pokemon/${pokemon._id}`}>{pokemon.name}</Link>
+        {pokemons.map(pokemon => (
+          <li key={pokemon.numero}>
+            <Link to={`/pokemon/${pokemon.numero}`}>{pokemon.name}</Link>
           </li>
         ))}
       </ul>
-      <Link to="/add-pokemon">Add a new Pokémon</Link>
+
+      <button onClick={() => setPage(page > 1 ? page - 1 : 1)} disabled={page === 1}>Précédent</button>
+      <button onClick={() => setPage(page + 1)}>Suivant</button>
     </div>
   );
 }
