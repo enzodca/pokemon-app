@@ -18,6 +18,20 @@ function AddPokemon() {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
+  const handleBackClick = () => {
+    navigate('/');
+  };
+
+  const handleGenerateImage = () => {
+    const numero = formData.numero;
+    if (numero) {
+      const imageUrl = `https://assets.pokemon.com/assets/cms2/img/pokedex/full/${numero}.png`;
+      setFormData({ ...formData, image: imageUrl });
+    } else {
+      setError('Veuillez entrer un numéro de Pokédex valide');
+    }
+  };
+
   const handleSubmit = (e) => {
     e.preventDefault();
     const { type1, type2, ...rest } = formData;
@@ -34,13 +48,17 @@ function AddPokemon() {
       })
       .then(data => {
         alert('Pokémon ajouté avec succès');
-        navigate('/');
+        navigate(`/pokemon/${data.numero}`); 
       })
-      .catch(error => setError('Échec de l\'ajout du Pokémon'));
+      .catch(error => setError('Un Pokémon avec ce numéro ou ce nom existe déjà.'));
   };
 
   return (
+    <div className="centered-container">
+    <div className="centered-content">
+    <button onClick={handleBackClick}>◀ Retour</button>
     <form onSubmit={handleSubmit}>
+      
       <label>*Numéro de pokedex :</label>
       <input type="number" name="numero" onChange={handleChange} required />
 
@@ -105,11 +123,18 @@ function AddPokemon() {
         <option value="Inconnu">Inconnu</option>
       </select>
 
+      <br></br>
+      <button type="button" onClick={handleGenerateImage}>Générer l'image</button>
+      <p></p>
       <label>URL de l'image :</label>
-      <input type="text" name="image" onChange={handleChange} />
-
+      <input type="text" name="image" value={formData.image} onChange={handleChange} />
+      <br></br>
       <button type="submit">Ajouter le Pokémon</button>
+      
     </form>
+    {error && <p>{error}</p>}
+    </div>
+  </div>
   );
 }
 

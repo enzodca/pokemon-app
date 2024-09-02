@@ -56,7 +56,6 @@ const updatePokemon = async (req, res) => {
   }
 };
 
-
 // Suppression d'un Pokémon
 const deletePokemon = async (req, res) => {
   try {
@@ -68,7 +67,6 @@ const deletePokemon = async (req, res) => {
   }
 };
 
-
 const getPokemonByNumber = async (req, res) => {
   try {
     const pokemon = await Pokemon.findOne({ numero: req.params.numero });
@@ -79,11 +77,21 @@ const getPokemonByNumber = async (req, res) => {
   }
 };
 
+const getTotalPokemons = async (req, res) => {
+  try {
+    const pokemons = await Pokemon.find().sort({ numero: 1 }); // Sorting by Pokedex number
+    res.json(pokemons);
+  } catch (error) {
+    res.status(500).json({ error: 'Échec de la récupération des pokémons' });
+  }
+};
+
 module.exports = {
   createPokemon,
   getPokemons,
   getPokemonById,
   getPokemonByNumber,
   updatePokemon,
-  deletePokemon
+  deletePokemon,
+  getTotalPokemons
 };

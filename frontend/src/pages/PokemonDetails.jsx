@@ -38,19 +38,38 @@ function PokemonDetails() {
     return <p>Chargement...</p>;
   }
 
+  const handleDelete = () => {
+    fetch(`http://localhost:5000/api/pokemons/${numero}`, {
+      method: 'DELETE',
+    })
+      .then(response => {
+        if (!response.ok) throw new Error('Échec de la suppression du Pokémon');
+        alert('Pokémon supprimé avec succès');
+        navigate('/');
+      })
+      .catch(error => setError('Échec de la suppression du Pokémon'));
+  };
+
   return (
-    <div>
-      <button onClick={handleBackClick}>◀ Retour</button>
-      <button onClick={handlePrevClick} disabled={pokemon.numero <= 1}>Précédent</button>
-      <button onClick={handleNextClick}>Suivant</button> 
-      <h1>Détails du Pokémon</h1>
-      <p><strong>Numéro :</strong> {pokemon.numero}</p>
-      <p><strong>Nom :</strong> {pokemon.name}</p>
-      <p><strong>Types :</strong> {pokemon.type.join(', ')}</p>
-      <p><strong>Génération :</strong> {pokemon.generation}</p>
-      <p><strong>Sexe :</strong> {pokemon.sex}</p>
-      <p><strong>Image :</strong> <img src={pokemon.image} alt={pokemon.name} /></p>
-      <button onClick={handleEditClick}>Modifier</button>
+    <div className="centered-container">
+      <div className="centered-content">
+        <button onClick={handleBackClick}>◀ Retour</button>
+        <button onClick={handlePrevClick} disabled={pokemon.numero <= 1}>Précédent</button>
+        <button onClick={handleNextClick}>Suivant</button>
+        <h1>Détails du Pokémon</h1>
+        <div className="pokemon-details-container">
+          <div className="pokemon-details-text">
+            <p><strong>Numéro :</strong> {pokemon.numero}</p>
+            <p><strong>Nom :</strong> {pokemon.name}</p>
+            <p><strong>Types :</strong> {pokemon.type.join(', ')}</p>
+            <p><strong>Génération :</strong> {pokemon.generation}</p>
+            <p><strong>Sexe :</strong> {pokemon.sex}</p>
+          </div>
+          <img className="pokemon-details-image" src={pokemon.image} alt={pokemon.name} />
+        </div>
+        <button onClick={handleEditClick}>Modifier</button>
+        <button onClick={handleDelete}>Supprimer</button>
+      </div>
     </div>
   );
 }

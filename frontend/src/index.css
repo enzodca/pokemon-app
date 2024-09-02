@@ -17,7 +17,7 @@ form {
 
 label {
   display: block;
-  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 input {
@@ -27,4 +27,135 @@ input {
 button {
   display: block;
   margin-top: 10px;
+  background: #FF4742;
+  border: 1px solid #FF4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+
 }
+
+button:disabled {
+  background: #cccccc; /* Couleur de fond grise */
+  border: 1px solid #aaaaaa; /* Bordure grise plus claire */
+  color: #666666; /* Texte gris foncé */
+  cursor: not-allowed; /* Curseur en forme de croix */
+  box-shadow: none; /* Pas d'ombre */
+}
+
+.recherche{
+  width: 162px;
+  height: 30px;
+}
+
+.centered-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 91vh;
+  padding: 20px;
+  border-radius: 10px;
+  background-image: url('./assets/soanja-connac-img-2396.png');
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.centered-content {
+  max-width: 800px;
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  background-Color: rgba(56, 80, 148, 0.8); 
+  box-shadow: 0 40px 120px rgba(0, 0, 0, 0.2), 0 60px 20px rgba(0, 0, 0, 0.19);
+}
+
+.centered-content select {
+  width: 177px;
+  height: 22px;
+}
+
+.centered-content label {
+  font-size: 20px;
+}
+
+.centered-content p {
+  font-size: 25px;
+}
+
+.centered-content h1 {
+  font-size: 50px;
+  margin-top:15px;
+  margin-bottom: 0px;
+}
+
+.home-page {
+  max-width: 800px;
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  background-image: url('./assets/pokemon-backgrounds-for-widescreen-wallpaper-preview.jpg');
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  box-shadow: 0 40px 120px rgba(0, 0, 0, 0.6), 0 60px 20px rgba(0, 0, 0, 0.19);
+}
+
+.add-page {
+  max-width: 800px;
+  width: 100%;
+  padding: 20px;
+  background-Color: rgba(128, 128, 128, 0.4); 
+  border-radius: 10px;
+  box-shadow: 0 40px 120px rgba(0, 0, 0, 0.2), 0 60px 20px rgba(0, 0, 0, 0.19);
+}
+
+
+/* Basic link styling */
+a{
+  color: #3498db; /* Link color */
+  text-decoration: none; /* Removes the underline */
+  font-weight: bold; /* Makes the link text bold */
+  font-size: 18px; /* Font size */
+
+  transition: background-color 0.3s, color 0.3s; /* Adds transition for hover effect */
+}
+
+/* Hover effect */
+a:hover {
+  background-color: #3498db; /* Changes background color on hover */
+  color: white; /* Changes text color on hover */
+}
+
+.pokemon-details-container {
+  display: flex;
+  align-items: center; /* Aligne les éléments au centre verticalement */
+  gap: 20px; 
+}
+
+.pokemon-details-text {
+  flex-flow: 1; 
+}
+
+.pokemon-details-image {
+  max-width: 500px; 
+  border-radius: 8px; 
+}
+
