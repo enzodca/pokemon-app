@@ -1,5 +1,3 @@
-/* frontend/src/index.css */
-/* Add your global styles here */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -52,11 +50,11 @@ button {
 }
 
 button:disabled {
-  background: #cccccc; /* Couleur de fond grise */
-  border: 1px solid #aaaaaa; /* Bordure grise plus claire */
-  color: #666666; /* Texte gris foncé */
-  cursor: not-allowed; /* Curseur en forme de croix */
-  box-shadow: none; /* Pas d'ombre */
+  background: #cccccc; 
+  border: 1px solid #aaaaaa; 
+  color: #666666;
+  cursor: not-allowed;
+  box-shadow: none;
 }
 
 .recherche{
@@ -127,26 +125,22 @@ button:disabled {
   box-shadow: 0 40px 120px rgba(0, 0, 0, 0.2), 0 60px 20px rgba(0, 0, 0, 0.19);
 }
 
-
-/* Basic link styling */
 a{
-  color: #3498db; /* Link color */
-  text-decoration: none; /* Removes the underline */
-  font-weight: bold; /* Makes the link text bold */
-  font-size: 18px; /* Font size */
-
-  transition: background-color 0.3s, color 0.3s; /* Adds transition for hover effect */
+  color: #3498db;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  transition: background-color 0.3s, color 0.3s;
 }
 
-/* Hover effect */
 a:hover {
-  background-color: #3498db; /* Changes background color on hover */
-  color: white; /* Changes text color on hover */
+  background-color: #3498db; 
+  color: white; 
 }
 
 .pokemon-details-container {
   display: flex;
-  align-items: center; /* Aligne les éléments au centre verticalement */
+  align-items: center; 
   gap: 20px; 
 }
 
