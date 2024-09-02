@@ -5,7 +5,6 @@ const createPokemon = async (req, res) => {
   try {
     const { numero, name } = req.body;
 
-    // Vérifier si un Pokémon avec le même numéro ou nom existe déjà
     const existingPokemon = await Pokemon.findOne({ $or: [{ numero }, { name }] });
     if (existingPokemon) {
       return res.status(400).json({ error: 'Un Pokémon avec ce numéro ou ce nom existe déjà.' });
@@ -67,6 +66,7 @@ const deletePokemon = async (req, res) => {
   }
 };
 
+// Récupération d'un Pokémon par son numero
 const getPokemonByNumber = async (req, res) => {
   try {
     const pokemon = await Pokemon.findOne({ numero: req.params.numero });
@@ -77,9 +77,10 @@ const getPokemonByNumber = async (req, res) => {
   }
 };
 
+// Récupération de tous les Pokemons
 const getTotalPokemons = async (req, res) => {
   try {
-    const pokemons = await Pokemon.find().sort({ numero: 1 }); // Sorting by Pokedex number
+    const pokemons = await Pokemon.find().sort({ numero: 1 }); 
     res.json(pokemons);
   } catch (error) {
     res.status(500).json({ error: 'Échec de la récupération des pokémons' });
